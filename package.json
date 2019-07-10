@@ -1,0 +1,25 @@
+{
+  "name": "gatsby-remark-spell-check",
+  "version": "0.0.0",
+  "description": "A markdown spell checker for gatsby-remark",
+  "author": "",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "clean": "rm -rf ./node_modules"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-plugin"
+  ],
+  "dependencies": {
+    "spellchecker": "^3.6.0",
+    "unist-util-visit": "^1.4.1"
+  },
+  "devDependencies": {
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2",
+    "remark": "^10.0.1"
+  }
+}
